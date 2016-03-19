@@ -1,0 +1,155 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    width: 800px;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+.row {
+	background-color: white;
+}
+
+.nav > li > a {
+    padding: 10px 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #FFFF00;
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #4AA02C;
+    background-color: #FFFFFF;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #E42217;
+}
+
+body {
+    padding-top: 150px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+table td {
+    text-indent: 15px;
+}
+
+#tr1 {
+    line-height: 35px;
+}
+
+#td2 {
+    line-height: 35px;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+footer{
+	background-color: rgba(255, 153, 0, 0.3);
+	text-align: center;
+}
+
+footer p {
+	font-weight: 700;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	padding-top: 7px;
+}
+
+.fb-page {
+    clear: left;
+    margin: 0 1.5%;
+    width: 20%;
+    height: 400px;
+}
+
+#gold-heading {
+    background-color: rgb(204, 153, 0);
+}
+
+#silver-heading {
+    background-color: rgb(173, 173, 133);
+}
+
+#bronze-heading {
+    background-color: rgb(204, 102, 0);
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+.required:before {
+    color: #FF0000;
+    content: '*';
+}
